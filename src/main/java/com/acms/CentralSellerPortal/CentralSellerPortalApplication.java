@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 
 @SpringBootApplication
 @EnableJpaRepositories
+@ConfigurationProperties(prefix="spring.datasource")
 @EnableConfigurationProperties(DatasourceProperties.class)
 public class CentralSellerPortalApplication {
 
