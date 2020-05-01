@@ -18,6 +18,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 class CentralSellerPortalApplicationTests {
 	@Autowired
+	@Component
 	private TestRestTemplate restTemplate;
 
 	@LocalServerPort
