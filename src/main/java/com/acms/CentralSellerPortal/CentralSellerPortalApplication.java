@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories
+@EnableConfigurationProperties(DatasourceProperties.class)
 public class CentralSellerPortalApplication {
 
 	public static void main(String[] args) {
